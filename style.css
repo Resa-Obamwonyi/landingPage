@@ -1,9 +1,21 @@
 body{
 
 	background:#f9fbfe;
-	font: 100%/1.5 "Lato", "Hiragino Maru Gothic Pro", "Meiryo UI", Meiryo, "MS PGothic", sans-serif;
+	font: 100%/1.5 "Lato", "Hiragino Maru Gothic Pro", "Meiryo UI", Meiryo, "MS PGothic", sans-serif ;
+	-webkit-font-smoothing: antialiased;
 }
 
+h1{
+	
+	font-weight: bold;
+	font-size: 1.8em;
+	color: #2b546a;
+}
+h3{
+	font-size: 0.9em;
+	font-weight: normal;
+	color:#5876a3;;
+}
 
 
 ul {
@@ -35,6 +47,34 @@ li a:hover {
 .logo{
 	background-color:  #2b546a; !important;
 }
-img{
+.logoimg{
 	height: 40px;
+}
+
+.web-node{
+	display: flex;
+	margin:100px auto;
+	background-color: white;
+	width: 90%;
+	height: 450px;
+	box-shadow: 1px 1px 1px 1px #888888;
+	
+}
+.inner-div{
+	margin:100px auto;
+	background-color: white;
+	width: 90%;
+}
+.node-img{
+	height: 300px;
+}
+
+#div-right{
+	width: 40%;
+	float:left;
+}
+
+#div-left{
+	width: 60%;
+	float: left;
 }
