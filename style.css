@@ -46,6 +46,7 @@ li a:hover {
   }
 .logo{
 	background-color:  #2b546a; !important;
+	float: left;
 }
 .logoimg{
 	height: 40px;
